@@ -1,0 +1,45 @@
+MeanStack Udemy #1 - Creating web servers with Node.js and Express:
+
+Create a section1 branch on your github repo (be sure to follow the node gitignore practices)
+You should be coding alongside the course. Everything the video does you should be doing as well. 
+Upload all code to github and submit the link to this assignment once complete.
+
+------------------
+
+MeanStack Udemy #2 - Working with MongoDB and NoSQL:
+
+Merge your section1 branch to you master, push to github and create a section2 
+branch on your github repo (be sure to follow the node gitignore practices)
+For import export part of the mongo process you only need to worry about getting the import to work. 
+Exporting is good practice but not needed for this assignment.
+Be sure to perform the 2 activities in this section as they are needed to have a complete functioning app.
+
+------------------
+
+MeanStack Udemy #3 - Build robust REST APIs using Node.js, Express and MongoDB:
+
+Merge your section2 branch to you master, push to github and create a section3 
+branch on your github repo (be sure to follow the node gitignore practices)
+Be sure to complete the 2 activities. It is advised not to look at the solution code 
+until you have yours to a working state. If you are stuck please work with your classmates.
+
+-------------------
+
+MeanStack Udemy #4 - Single Page Applications with AngularJS, the right way:
+
+Merge your section3 branch to you master, push to github and create a section4 
+branch on your github repo (be sure to follow the node gitignore practices)
+
+-------------------
+
+MeanStack Udemy #5 - Adding authentication to the MEAN stack:
+
+Merge your section4 branch to you master, push to github and create a section5 
+branch on your github repo (be sure to follow the node gitignore practices)
+
+-------------------
+
+Final Project - MEAN NASDAQ:
+Use the document outlined as a basic guide. 
+You are heavily advised to make this your own with 
+your own design ideas and additional features.

@@ -1,0 +1,33 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "MEAN stack application",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JackieG19/Udemy-MEAN-Stack.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "Full Stack Training",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackieG19/Udemy-MEAN-Stack/issues"
+  },
+  "homepage": "https://github.com/JackieG19/Udemy-MEAN-Stack#readme"
+}
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}

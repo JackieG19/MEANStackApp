@@ -12,8 +12,13 @@
     "type": "git",
     "url": "git+ssh://git@github.com/JackieG19/Udemy-MEAN-Stack.git"
   },
-  "keywords": [
-    "mean"
+ "keywords": [
+    "udemy",
+    "meanStack",
+    "node",
+    "mongo",
+    "angular",
+    "express"
   ],
   "author": "Full Stack Training",
   "license": "ISC",

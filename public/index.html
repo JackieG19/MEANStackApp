@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html> 
-    <head> 
-        <title>MEAN Hotel</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/superhero/bootstrap.min.css" rel="stylesheet" integrity="sha384-5wAMKUlGYMj+I1P0kUCCwryZKMvv4S6K2e0UlixY5YK3Z4/HWKP9MtELCm0Iyo74" crossorigin="anonymous">
-        <link href="css/custom.css" rel="stylesheet"></a>
-    </head>
+<html lang="en" ng-app="meanhotel">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MEAN Hotel</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
     <body>
         <h1>MEAN hotal homepage</h1>
+        
+     <mh-navigation></mh-navigation>
+        <div class="container">
+            <div ng-view></div>
+        </div>
         <footer class="foooter">
             <div class="container">
                 <p class="text-muted text-center">
@@ -19,6 +28,19 @@
                 </p>
             </div>
         </footer>
-    </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    </html>
+       <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="node_modules/angular-jwt/dist/angular-jwt.js"></script>
+    <script src="angular-app/app.js"></script>
+    <script src="angular-app/hotel-list/hotel-list-controller.js"></script>
+    <script src="angular-app/hotel-display/hotel-display-controller.js"></script>
+    <script src="angular-app/hotel-data-factory/hotel-data-factory.js"></script>
+    <script src="angular-app/hotel-rating/hotel-rating-directive.js"></script>
+    <script src="angular-app/register/register-controller.js"></script>
+    <script src="angular-app/navigation-directive/navigation-directive.js"></script>
+    <script src="angular-app/login/login-controller.js"></script>
+    <script src="angular-app/auth/auth-factory.js"></script>
+    <script src="angular-app/auth/auth-interceptor.js"></script>
+</body>
+</html>
